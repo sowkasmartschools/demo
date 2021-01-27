@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import { Button } from 'reactstrap';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to Sowka Smart Schools.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Sowka Smart Schools</h1>
+      <Button color="primary">Danger23!</Button>{' '}
+      <Button color="secondary">Danger!</Button>
     </div>
   );
 }
